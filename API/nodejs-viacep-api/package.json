@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-viacep-api",
+  "version": "1.0.0",
+  "description": "A simple Node.js API to retrieve address information from the ViaCEP service based on postal codes.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.0.2",
+    "supertest": "^7.1.1"
+  }
+}
